@@ -25,7 +25,6 @@ export default function Document() {
 
       </Head>
       <body>
-        <text>Hey!</text>
         <Main />
         <NextScript />
       </body>

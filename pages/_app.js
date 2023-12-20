@@ -3,7 +3,6 @@ import Head from 'next/head'
 
 import '../styles/main.css'
 
-
 export default function Nextra({ Component, pageProps }) {
   return (
     <>
