@@ -6,7 +6,7 @@ export default class Projects extends Component {
         return(
           <div class="centered">
           <section class="cards"> 
-                <article class="card">
+                <div class="card">
                         <picture class="thumbnail">
                           <img src="/images/photo.jpg"/>
                         </picture>
@@ -14,8 +14,8 @@ export default class Projects extends Component {
                             <h3>Project 1</h3>
                             <p>Project Description</p>
                         </div>
-                </article> 
-                <article class="card">
+                </div> 
+                <div class="card">
                         <picture class="thumbnail">
                           <img src="/images/photo2.jpg"/>
                         </picture>
@@ -23,7 +23,16 @@ export default class Projects extends Component {
                             <h3>Project 2</h3>
                             <p>Project Description</p>
                         </div>
-                </article> 
+                </div> 
+                <div class="card">
+                        <picture class="thumbnail">
+                          <img src="/images/photo2.jpg"/>
+                        </picture>
+                        <div class="card-content">
+                            <h3>Project 3</h3>
+                            <p>Project Description</p>
+                        </div>
+                </div> 
           </section>
         </div>
         )
