@@ -6,8 +6,8 @@ const matter = require('gray-matter')
 async function generate() {
   const feed = new RSS({
     title: 'Felix Berinde',
-    site_url: 'https://felix.berinde.dev',
-    feed_url: 'https://felix.berinde.dev/feed.xml'
+    site_url: 'https://portfolio-felixberinde.vercel.app/',
+    feed_url: 'https://portfolio-felixberinde.vercel.app//feed.xml'
   })
 
   const posts = await fs.readdir(path.join(__dirname, '..', 'pages', 'posts'))

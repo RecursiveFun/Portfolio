@@ -3,6 +3,8 @@ import Head from 'next/head'
 
 import '../styles/main.css'
 
+import FlareCursor from "../scripts/FlareCursor.js";
+
 export default function Nextra({ Component, pageProps }) {
   return (
     <>
@@ -21,7 +23,10 @@ export default function Nextra({ Component, pageProps }) {
           crossOrigin="anonymous"
         />
       </Head>
-      <Component {...pageProps} />
+      <Component
+       {...pageProps}>
+        <><FlareCursor/></>
+      </Component>
     </>
   )
 }
