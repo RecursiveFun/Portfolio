@@ -72,7 +72,7 @@ img.next-image {
 
 .flare {
   position: fixed;
-  border: 2px solid #ffffff2b;
+  border: 2px solid #ffa600ea;
   border-radius: 50%;
   mix-blend-mode: screen;
   pointer-events: none;

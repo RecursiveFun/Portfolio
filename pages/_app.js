@@ -3,7 +3,6 @@ import Head from 'next/head'
 
 import '../styles/main.css'
 
-import FlareCursor from "../scripts/FlareCursor.js";
 
 export default function Nextra({ Component, pageProps }) {
   return (
@@ -25,7 +24,6 @@ export default function Nextra({ Component, pageProps }) {
       </Head>
       <Component
        {...pageProps}>
-        <><FlareCursor/></>
       </Component>
     </>
   )
