@@ -9,7 +9,7 @@ export default class Projects extends Component {
                   <div className="card-content">
                   <iframe className="thumbnail" width="100%" height="auto" src="https://www.youtube.com/embed/T5CiBd7XqQA" title="Course Planner" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen"></iframe>
                     <h3>Xamarin Course Planner</h3>
-                    <p>Mobile app built with Xamarin Forms and SQLite which was for my mobile application development class.</p>
+                    <p>Mobile app built with Xamarin Forms and SQLite which was for my mobile application development class. The application is where I learned asynchronous programming concepts and I had to apply them to this project. NuGet Package Xam.Plugins.Notifier was also used in this project.</p>
                     <a target="_blank" href="https://github.com/RecursiveFun/Course_Planner"><img width="50px" height ="auto" src="/images/github.png"/>GitHub</a>
                   </div>
                 </div> 
@@ -17,7 +17,7 @@ export default class Projects extends Component {
                         <div className="card-content">
                         <iframe className="thumbnail" width="100%" height="auto" src="https://www.youtube.com/embed/td2zmk2rGRk" title="Appointment Scheduler" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen"></iframe>
                             <h3>C# WinForms Appointment Scheduler Application</h3>
-                            <p>C# WinForms scheduling application with globalization, displaying the appointments in the users local time and converting it to the MYSQL servers time in UTC 00:00 automagically.</p>
+                            <p>C# WinForms scheduling application with globalization, displaying the appointments in the users local time and converting it to the MYSQL servers time in 00:00 UTC automagically.</p>
                             <a target="_blank" href="https://github.com/RecursiveFun/Appointment_Scheduler"><img width="50px" height ="auto" src="/images/github.png"/>GitHub</a>
                         </div>
                 </div> 
