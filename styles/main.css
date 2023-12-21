@@ -78,9 +78,10 @@ img.next-image {
 display: block;
 border: 0;
 width: 100%;
-height: auto;
+height: 250px;
 max-width: 100%;
 contain: content;
+margin-top: 15px;
 }
 
 
@@ -102,11 +103,11 @@ box-shadow: 3px 3px 8px hsl(0, 0%, 80%);
 
 .card-content {
 text-align: center;
+width: 500px;
 }
 
 .card-content h3 {
 margin-top: 0;
-margin-bottom: .5em;
 font-weight: bold;
 }
 
@@ -123,7 +124,7 @@ font-size: 80%;
 
 .card {
   box-sizing: border-box;
-  margin: 1rem .25em;
+  margin: .25rem .25em;
 }
 
 
