@@ -35,7 +35,7 @@ export default class Projects extends Component {
                 </div> 
                 <div className="card">
                         <picture className="thumbnail">
-                          <img src="https://private-user-images.githubusercontent.com/50165092/292078646-8c182df9-e5c9-47a0-8772-c2a7bee06823.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDMxMjk4MjAsIm5iZiI6MTcwMzEyOTUyMCwicGF0aCI6Ii81MDE2NTA5Mi8yOTIwNzg2NDYtOGMxODJkZjktZTVjOS00N2EwLTg3NzItYzJhN2JlZTA2ODIzLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFJV05KWUFYNENTVkVINTNBJTJGMjAyMzEyMjElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjMxMjIxVDAzMzIwMFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWY5ODUzYWUwOWQxMzYzYmZiNzFiNDBiNTJhODI2OTJlZmQ4NGEzYjExOWNmNGQxNDk0ZGNmOTIzMjE0YTg2NTAmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.hmjLiPZ-MhYEsylhFs8uvFjxC6XmBWwuf09y6BAUZV8"/>
+                          <img src="https://i.imgur.com/VDx7u18.png"/>
                         </picture>
                         <div className="card-content">
                             <h3>New Paths Inc. Company Website</h3>
