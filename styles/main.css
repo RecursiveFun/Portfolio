@@ -71,7 +71,7 @@ img.next-image {
 }
 
 
-/* --------------------------------------------------------------------- */
+/* ---------------------------------Project Component Css------------------------------------ */
 
 
 .thumbnail {
@@ -87,7 +87,8 @@ margin-top: 15px;
 
 
 .card {
-background: rgba(151, 151, 151, 0.555);
+background: rgb(255,179,0);
+background: radial-gradient(circle, rgba(255,179,0,1) 37%, rgba(221,189,11,1) 62%, rgba(0,255,81,1) 100%);  
 border-radius: 15px;
 max-height: 550px;
 }
@@ -104,6 +105,7 @@ box-shadow: 3px 3px 8px hsl(0, 0%, 80%);
 .card-content {
 text-align: center;
 width: 450px;
+color: black;
 }
 
 .card-content h3 {
@@ -136,6 +138,7 @@ font-size: 80%;
 h3 {
   font-size: 16px;
   font-weight: 600;
+  color:rgb(31, 31, 31) !important;
 }
 
 table {
@@ -170,4 +173,48 @@ table td {
 .tableContainer{
   display: flex;
   justify-content: center;
+}
+
+/* --------------------------------Download Button Css------------------------------------- */
+
+.download {
+  width: 400px;
+  height: 75px;
+  background: black;
+
+  border-radius: 5px;
+  position: absolute;
+  color: #fff;
+  cursor: pointer;
+  border: 1px solid #fff;
+}
+
+.download > .fa {
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.df,
+.dfn {
+  position: absolute;
+  font-size: 1em;
+  margin-top: 20px;
+  margin-left: 40%;
+}
+
+
+.dfn {
+  top: 35px;
+  font-size: 1em;
+}
+
+.df{
+  justify-content: center;
+}
+
+.download:hover {
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
 }
