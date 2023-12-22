@@ -22,7 +22,8 @@ export default function Document() {
         <meta name="twitter:title" content={meta.title} />
         <meta name="twitter:description" content={meta.description} />
         <meta name="twitter:image" content={meta.image} />
-
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-0032622662460947"
+        crossOrigin="anonymous"></script>
       </Head>
       <body>
         <Main />
