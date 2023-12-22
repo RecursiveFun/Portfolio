@@ -91,6 +91,9 @@ background: rgb(255,179,0);
 background: radial-gradient(circle, rgba(255,179,0,1) 37%, rgba(0,232,255,1) 100%);
 border-radius: 15px;
 max-height: 550px;
+box-sizing: border-box;
+margin: .25rem .25em;
+width: min-content;
 }
 
 .card a {
@@ -117,17 +120,23 @@ font-weight: bold;
 font-size: 80%;
 }
 
-/* Flexbox stuff */
+/*----------------------------Media Queries--------------------------*/
+
+
+@media only screen and (max-width: 950px) {
+
+  .cards {
+    display: grid !important;
+  }
+}
+
+/*-------------------Flexbox stuff---------------------*/
 
 .cards {
   display: flex;
   justify-content: center;
 }
 
-.card {
-  box-sizing: border-box;
-  margin: .25rem .25em;
-}
 
 
 .centered {
@@ -175,6 +184,7 @@ table td {
   justify-content: center;
 }
 
+
 /* --------------------------------Download Button Css------------------------------------- */
 
 .download {
@@ -218,3 +228,4 @@ table td {
   -webkit-filter: invert(100%);
   filter: invert(100%);
 }
+
