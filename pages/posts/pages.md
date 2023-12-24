@@ -3,7 +3,7 @@ title: Next.js Pages
 date: 2021/3/18
 description: Learn more about Next.js pages.
 tag: web development
-author: Felix Berinde
+author: Vercel
 ---
 
 # Next.js Pages
