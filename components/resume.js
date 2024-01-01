@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-export default class Download extends Component {
+export default class Resume extends Component {
     render() {
         return(
             <a href="/images/Felix_Berinde_Resume.pdf" download="Felix Berinde Resume">

@@ -222,6 +222,7 @@ table td {
 
 .df{
   justify-content: center;
+  padding-bottom: 15px;
 }
 
 .download:hover {

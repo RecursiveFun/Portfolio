@@ -4,8 +4,9 @@ title: Resume
 date: 2023-12-19
 ---
 
-import Download from '/components/download.js';
-import Image from 'next/image'
+import Resume from '/components/resume.js';
+import Capstone from '/components/capstone.js';
+import Image from 'next/image';
 
 Resume:
 <Image
@@ -16,4 +17,18 @@ Resume:
   priority
   className="next-image"
 />
-<Download />
+<Resume />
+
+--
+--
+
+Capstone Project:
+<Image
+  src="/images/capstone.PNG"
+  alt="Screenshot of my capstone project."
+  width={400}
+  height={100}
+  priority
+  className="next-image"
+/>
+<Capstone />
