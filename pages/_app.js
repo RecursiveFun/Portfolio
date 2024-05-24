@@ -1,4 +1,5 @@
 import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import 'nextra-theme-blog/style.css'
 import Head from 'next/head'
 
@@ -24,6 +25,7 @@ export default function Nextra({ Component, pageProps }) {
       </Head>
       <Component {...pageProps} />
       <Analytics />
+      <SpeedInsights />
     </>
   )
 }
