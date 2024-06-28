@@ -27,7 +27,7 @@ export default function Document() {
 
         {/* Google adsense */}
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-0032622662460947"
-        crossorigin="anonymous"></script>
+        crossOrigin="anonymous"></script>
         <meta name="google-adsense-account" content="ca-pub-0032622662460947"></meta>
         
       </Head>

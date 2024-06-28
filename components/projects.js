@@ -7,7 +7,7 @@ export default class Projects extends Component {
           <section className="cards"> 
                 <div className="card">
                   <div className="card-content">
-                  <iframe className="thumbnail" width="100%" height="auto" src="https://www.youtube.com/embed/T5CiBd7XqQA" title="Course Planner" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen"></iframe>
+                  <iframe className="thumbnail" width="100%" height="auto" src="https://www.youtube.com/embed/T5CiBd7XqQA" title="Course Planner" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen"></iframe>
                     <h3>Xamarin Course Planner</h3>
                     <p>Mobile app built with Xamarin Forms and SQLite which was for my mobile application development class. The application is where I learned asynchronous programming concepts and I had to apply them to this project. NuGet Package Xam.Plugins.Notifier was also used in this project.</p>
                     <a target="_blank" href="https://github.com/RecursiveFun/Course_Planner"><img width="50px" height ="auto" src="/images/github.png"/>GitHub</a>
@@ -15,7 +15,7 @@ export default class Projects extends Component {
                 </div> 
                 <div className="card">
                         <div className="card-content">
-                        <iframe className="thumbnail" width="100%" height="auto" src="https://www.youtube.com/embed/td2zmk2rGRk" title="Appointment Scheduler" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen"></iframe>
+                        <iframe className="thumbnail" width="100%" height="auto" src="https://www.youtube.com/embed/td2zmk2rGRk" title="Appointment Scheduler" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen"></iframe>
                             <h3>C# WinForms Appointment Scheduler Application</h3>
                             <p>C# WinForms scheduling application with globalization, displaying the appointments in the users local time and converting it to the MYSQL servers time in 00:00 UTC automagically.</p>
                             <a target="_blank" href="https://github.com/RecursiveFun/Appointment_Scheduler"><img width="50px" height ="auto" src="/images/github.png"/>GitHub</a>
@@ -29,18 +29,20 @@ export default class Projects extends Component {
                         </picture>
                         <div className="card-content">
                             <h3>C# WinForms Inventory Management System</h3>
-                            <p>A WinForms inventory management system written in C# with basic CRUD operations, error handling, and polymorphism.</p>
+                            <p style={{marginTop: 80}}>A WinForms inventory management system written in C# with basic CRUD operations, error handling, and polymorphism.</p>
                             <a target="_blank" href="https://github.com/RecursiveFun/InventoryManagementSystem"><img width="50px" height ="auto" src="/images/github.png"/>GitHub</a>
                         </div>
                 </div> 
                 <div className="card">
                         <picture className="thumbnail">
-                          <img src="https://i.imgur.com/VDx7u18.png"/>
+                          <img src="https://i.imgur.com/4PrHfaC.png"/>
                         </picture>
                         <div className="card-content">
-                            <h3>New Paths Inc. Company Website</h3>
-                            <p>The website was designed with custom HTML, CSS, Javascipt, PHP and also used the bootstrap framework.</p>
-                            <a target="_blank" href="https://github.com/RecursiveFun/NPIWebsite"><img width="50px" height ="auto" src="/images/github.png"/>GitHub</a>
+                            <h3>YelpCamp Web App</h3>
+                            <p>This web app was made with Express, Mongoose, Node, and MongoDB. Users are able to register and create new campgrounds, upload/delete images which get uploaded to cloundinary via the cloudinary API. The camps are dynamically displayed using the MapBox API. 
+                            Users can also leave reviews on each campground.
+                            </p>
+                            <a target="_blank" href="https://github.com/RecursiveFun/YelpCamp"><img width="50px" height ="auto" src="/images/github.png"/>GitHub</a>
                         </div>
                 </div> 
           </section>
