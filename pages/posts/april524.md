@@ -1,7 +1,7 @@
 ---
 title: Updating my resume.
 date: 2024/04/05
-description: A welcome and introduction.
+description: Hello Again.
 tag: dev
 author: Felix Berinde
 ---
