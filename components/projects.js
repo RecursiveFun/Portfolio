@@ -39,7 +39,7 @@ export default class Projects extends Component {
                         </picture>
                         <div className="card-content">
                             <h3>YelpCamp Web App</h3>
-                            <p>This web app was made with Express, Mongoose, Node, and MongoDB. Users are able to register and create new campgrounds, thet can also upload/delete images which get uploaded to cloundinary via the cloudinary API. The camps are dynamically displayed using the MapBox API. 
+                            <p>This web app was made with Express, Mongoose, Node, and MongoDB. Users are able to register and create new campgrounds, that can also upload/delete images which get uploaded to cloundinary via the cloudinary API. The camps are dynamically displayed using the MapBox API. 
                             Users can also leave reviews on each campground.
                             </p>
                             <a target="_blank" href="https://github.com/RecursiveFun/YelpCamp"><img width="50px" height ="auto" src="/images/github.png"/>GitHub</a>
