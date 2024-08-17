@@ -93,7 +93,7 @@ border-radius: 15px;
 max-height: 600px;
 box-sizing: border-box;
 margin: .25rem .25em;
-width: min-content;
+width: fit-content;
 }
 
 .card a {
@@ -108,8 +108,9 @@ box-shadow: 3px 3px 8px hsl(0, 0%, 80%);
 
 .card-content {
 text-align: center;
-width: 450px;
+width: fit-content;
 color: black;
+margin-bottom: 10px;
 }
 
 .card-content h3 {

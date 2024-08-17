@@ -29,7 +29,7 @@ export default class Projects extends Component {
                         </picture>
                         <div className="card-content">
                             <h3>C# WinForms Inventory Management System</h3>
-                            <p style={{marginTop: 80}}>A WinForms inventory management system written in C# with basic CRUD operations, error handling, and polymorphism.</p>
+                            <p style={{marginTop: 40}}>A WinForms inventory management system written in C# with basic CRUD operations, error handling, and polymorphism.</p>
                             <a target="_blank" href="https://github.com/RecursiveFun/InventoryManagementSystem"><img width="50px" height ="auto" src="/images/github.png"/>GitHub</a>
                         </div>
                 </div> 
