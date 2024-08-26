@@ -93,7 +93,9 @@ border-radius: 15px;
 max-height: 600px;
 box-sizing: border-box;
 margin: .25rem .25em;
-width: fit-content;
+width: 300px;
+display: flex;
+flex-direction: column;
 }
 
 .card a {
@@ -108,18 +110,60 @@ box-shadow: 3px 3px 8px hsl(0, 0%, 80%);
 
 .card-content {
 text-align: center;
-width: fit-content;
+padding: 15px;
 color: black;
-margin-bottom: 10px;
+flex-grow: 1;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
 }
 
 .card-content h3 {
 margin-top: 0;
 font-weight: bold;
+margin-bottom: 10px;
 }
 
 .card-content p {
 font-size: 80%;
+margin-bottom: 15px;
+}
+
+.github-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: auto;
+}
+
+.github-link img {
+  width: 32px;  /* Increased from 24px */
+  height: 32px; /* Increased from 24px */
+  margin-right: 8px;
+}
+
+.github-link a {
+  font-size: 14px;
+  color: var(--text-color);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.github-link a:hover {
+  color: #0366d6;
+  text-decoration: underline;
+}
+
+:root {
+  --text-color: black;
+  --background-color: white;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text-color: white;
+    --background-color: black;
+  }
 }
 
 /*----------------------------Media Queries--------------------------*/
@@ -138,7 +182,6 @@ font-size: 80%;
   display: flex;
   justify-content: center;
 }
-
 
 
 .centered {
@@ -231,4 +274,3 @@ table td {
   -webkit-filter: invert(100%);
   filter: invert(100%);
 }
-

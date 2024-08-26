@@ -10,7 +10,10 @@ export default class Projects extends Component {
                   <iframe className="thumbnail" width="100%" height="auto" src="https://www.youtube.com/embed/T5CiBd7XqQA" title="Course Planner" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen"></iframe>
                     <h3>Xamarin Course Planner</h3>
                     <p>Mobile app built with Xamarin Forms and SQLite which was for my mobile application development class. The application is where I learned asynchronous programming concepts and I had to apply them to this project. NuGet Package Xam.Plugins.Notifier was also used in this project.</p>
-                    <a target="_blank" href="https://github.com/RecursiveFun/Course_Planner"><img width="50px" height ="auto" src="/images/github.png"/>GitHub</a>
+                    <div className="github-link">
+                      <a target="_blank" href="https://github.com/RecursiveFun/Course_Planner"><img width="50px" height ="auto" src="/images/github.png"/></a>
+                      <a target="_blank" href="https://github.com/RecursiveFun/Course_Planner">GitHub</a>
+                    </div>
                   </div>
                 </div> 
                 <div className="card">
@@ -18,7 +21,10 @@ export default class Projects extends Component {
                         <iframe className="thumbnail" width="100%" height="auto" src="https://www.youtube.com/embed/td2zmk2rGRk" title="Appointment Scheduler" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen"></iframe>
                             <h3>C# WinForms Appointment Scheduler Application</h3>
                             <p>C# WinForms scheduling application with globalization, displaying the appointments in the users local time and converting it to the MYSQL servers time in 00:00 UTC automagically.</p>
-                            <a target="_blank" href="https://github.com/RecursiveFun/Appointment_Scheduler"><img width="50px" height ="auto" src="/images/github.png"/>GitHub</a>
+                            <div className="github-link">
+                              <a target="_blank" href="https://github.com/RecursiveFun/Appointment_Scheduler"><img width="50px" height ="auto" src="/images/github.png"/></a>
+                              <a target="_blank" href="https://github.com/RecursiveFun/Appointment_Scheduler">GitHub</a>
+                            </div>
                         </div>
                 </div> 
           </section>
@@ -30,7 +36,10 @@ export default class Projects extends Component {
                         <div className="card-content">
                             <h3>C# WinForms Inventory Management System</h3>
                             <p style={{marginTop: 40}}>A WinForms inventory management system written in C# with basic CRUD operations, error handling, and polymorphism.</p>
-                            <a target="_blank" href="https://github.com/RecursiveFun/InventoryManagementSystem"><img width="50px" height ="auto" src="/images/github.png"/>GitHub</a>
+                            <div className="github-link">
+                              <a target="_blank" href="https://github.com/RecursiveFun/InventoryManagementSystem"><img width="50px" height ="auto" src="/images/github.png"/></a>
+                              <a target="_blank" href="https://github.com/RecursiveFun/InventoryManagementSystem">GitHub</a>
+                            </div>
                         </div>
                 </div> 
                 <div className="card">
@@ -42,7 +51,10 @@ export default class Projects extends Component {
                             <p>This web app was made with Express, Mongoose, Node, and MongoDB. Users are able to register and create new campgrounds, users can also upload/delete images which get uploaded to cloundinary via the cloudinary API. The camps are dynamically displayed using the MapBox API. 
                             Users can also leave reviews on each campground.
                             </p>
-                            <a target="_blank" href="https://github.com/RecursiveFun/YelpCamp"><img width="50px" height ="auto" src="/images/github.png"/>GitHub</a>
+                            <div className="github-link">
+                              <a target="_blank" href="https://github.com/RecursiveFun/YelpCamp"><img width="50px" height ="auto" src="/images/github.png"/></a>
+                              <a target="_blank" href="https://github.com/RecursiveFun/YelpCamp">GitHub</a>
+                            </div>
                         </div>
                 </div> 
           </section>
@@ -50,4 +62,3 @@ export default class Projects extends Component {
         )
       }
 }
-
