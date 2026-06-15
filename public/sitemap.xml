@@ -55,6 +55,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.berinde.dev/posts/how-i-deployed-berinde-dev-on-vercel</loc>
+    <lastmod>2026-06-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.berinde.dev/posts/intro</loc>
     <lastmod>2023-12-21</lastmod>
     <changefreq>monthly</changefreq>
