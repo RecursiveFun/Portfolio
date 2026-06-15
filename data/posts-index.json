@@ -1,0 +1,66 @@
+[
+  {
+    "slug": "how-i-deployed-berinde-dev-on-vercel",
+    "title": "How I Deployed berinde.dev on Vercel",
+    "date": "2026/06/16",
+    "description": "A walkthrough of deploying my Nextra portfolio site to Vercel with a custom domain, build scripts, analytics, and the issues I ran into along the way.",
+    "tag": "dev, vercel, next.js, deployment",
+    "author": "Felix Berinde"
+  },
+  {
+    "slug": "building-yelpcamp",
+    "title": "Building YelpCamp — A Full-Stack Campground App with Node and MongoDB",
+    "date": "2026/06/15",
+    "description": "A deep dive into building a campground review and booking platform with Express, Mongoose, MongoDB, Cloudinary, and MapBox.",
+    "tag": "web development, node.js, mongodb",
+    "author": "Felix Berinde"
+  },
+  {
+    "slug": "appointment-scheduler-timezones",
+    "title": "Globalization in a C# WinForms Appointment Scheduler",
+    "date": "2026/06/14",
+    "description": "How I built a desktop scheduling app that converts local appointment times to UTC for MySQL storage using C# WinForms.",
+    "tag": "c#, desktop, winforms",
+    "author": "Felix Berinde"
+  },
+  {
+    "slug": "xamarin-course-planner",
+    "title": "Xamarin Forms and SQLite — Building a Mobile Course Planner",
+    "date": "2026/06/13",
+    "description": "Lessons from building a Xamarin Forms mobile app with SQLite, async programming, and local notifications.",
+    "tag": "mobile, xamarin, csharp",
+    "author": "Felix Berinde"
+  },
+  {
+    "slug": "winforms-inventory-system",
+    "title": "CRUD and Polymorphism in a C# WinForms Inventory System",
+    "date": "2026/06/12",
+    "description": "Building a desktop inventory management app with C# WinForms, MySQL, and object-oriented design patterns.",
+    "tag": "c#, desktop, winforms",
+    "author": "Felix Berinde"
+  },
+  {
+    "slug": "june2824",
+    "title": "Updating my portfolio.",
+    "date": "2024/06/28",
+    "description": "Summer Update.",
+    "tag": "dev",
+    "author": "Felix Berinde"
+  },
+  {
+    "slug": "april524",
+    "title": "Updating my resume.",
+    "date": "2024/04/05",
+    "description": "Hello Again.",
+    "tag": "dev",
+    "author": "Felix Berinde"
+  },
+  {
+    "slug": "intro",
+    "title": "Hey and welcome!",
+    "date": "2023/12/21",
+    "description": "A welcome and introduction.",
+    "tag": "personal",
+    "author": "Felix Berinde"
+  }
+]
