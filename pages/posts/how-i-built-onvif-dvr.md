@@ -1,6 +1,6 @@
 ---
 title: How I Built ONVIF-DVR — A Self-Hosted Camera System
-date: 2026/06/17
+date: 2026/06/15
 description: Building a self-hosted DVR for IP cameras with ONVIF discovery, live HLS streaming, segmented recording, and a React multiview interface.
 tag: dev, onvif, react, node.js, ffmpeg
 author: Felix Berinde

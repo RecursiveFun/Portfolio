@@ -1,8 +1,16 @@
 [
   {
+    "slug": "building-yelpcamp",
+    "title": "Building YelpCamp — A Full-Stack Campground App with Node and MongoDB",
+    "date": "2026/06/15",
+    "description": "A deep dive into building a campground review and booking platform with Express, Mongoose, MongoDB, Cloudinary, and MapBox.",
+    "tag": "web development, node.js, mongodb",
+    "author": "Felix Berinde"
+  },
+  {
     "slug": "how-i-built-onvif-dvr",
     "title": "How I Built ONVIF-DVR — A Self-Hosted Camera System",
-    "date": "2026/06/17",
+    "date": "2026/06/15",
     "description": "Building a self-hosted DVR for IP cameras with ONVIF discovery, live HLS streaming, segmented recording, and a React multiview interface.",
     "tag": "dev, onvif, react, node.js, ffmpeg",
     "author": "Felix Berinde"
@@ -10,17 +18,9 @@
   {
     "slug": "how-i-deployed-berinde-dev-on-vercel",
     "title": "How I Deployed berinde.dev on Vercel",
-    "date": "2026/06/16",
+    "date": "2026/06/15",
     "description": "A walkthrough of deploying my Nextra portfolio site to Vercel with a custom domain, build scripts, analytics, and the issues I ran into along the way.",
     "tag": "dev, vercel, next.js, deployment",
-    "author": "Felix Berinde"
-  },
-  {
-    "slug": "building-yelpcamp",
-    "title": "Building YelpCamp — A Full-Stack Campground App with Node and MongoDB",
-    "date": "2026/06/15",
-    "description": "A deep dive into building a campground review and booking platform with Express, Mongoose, MongoDB, Cloudinary, and MapBox.",
-    "tag": "web development, node.js, mongodb",
     "author": "Felix Berinde"
   },
   {
