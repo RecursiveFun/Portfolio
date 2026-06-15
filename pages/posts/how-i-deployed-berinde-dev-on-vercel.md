@@ -1,6 +1,6 @@
 ---
 title: How I Deployed berinde.dev on Vercel
-date: 2026/06/16
+date: 2026/06/15
 description: A walkthrough of deploying my Nextra portfolio site to Vercel with a custom domain, build scripts, analytics, and the issues I ran into along the way.
 tag: dev, vercel, next.js, deployment
 author: Felix Berinde
@@ -67,9 +67,9 @@ Out of the box, Next.js only runs `next build`. My site needs a few extra steps 
 }
 ```
 
-**`gen-rss.js`** reads every file in `pages/posts/`, parses the frontmatter with `gray-matter`, and writes `public/feed.xml`. Subscribers and feed readers can follow new posts without me maintaining the XML by hand.
+`**gen-rss.js**` reads every file in `pages/posts/`, parses the frontmatter with `gray-matter`, and writes `public/feed.xml`. Subscribers and feed readers can follow new posts without me maintaining the XML by hand.
 
-**`gen-sitemap.js`** does the same scan and produces `public/sitemap.xml` with URLs for every static page and blog post. The `robots.txt` file points crawlers to it:
+`**gen-sitemap.js**` does the same scan and produces `public/sitemap.xml` with URLs for every static page and blog post. The `robots.txt` file points crawlers to it:
 
 ```
 Sitemap: https://www.berinde.dev/sitemap.xml
