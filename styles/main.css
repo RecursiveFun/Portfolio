@@ -225,45 +225,49 @@ table td {
 
 /* --------------------------------Download Button Css------------------------------------- */
 
-.download {
-  width: 400px;
-  height: 75px;
-  background: black;
-
-  border-radius: 5px;
-  position: absolute;
+.download-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.625rem;
+  margin: 1rem 0 2.5rem;
+  padding: 0.75rem 1.25rem;
+  background: #0074de;
   color: #fff;
-  cursor: pointer;
-  border: 1px solid #fff;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 0.95rem;
+  font-weight: 500;
+  line-height: 1;
+  transition: background-color 0.2s ease, transform 0.15s ease;
+  width: fit-content;
+  max-width: 100%;
 }
 
-.download > .fa {
+.download-button:hover {
+  background: #005bb5;
   color: #fff;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+  text-decoration: none;
+  transform: translateY(-1px);
 }
 
-.df,
-.dfn {
-  position: absolute;
-  font-size: 1em;
-  margin-top: 20px;
-  margin-left: 40%;
+.download-button:active {
+  transform: translateY(0);
 }
 
-
-.dfn {
-  top: 35px;
-  font-size: 1em;
+.download-button__icon {
+  width: 1.125rem;
+  height: 1.125rem;
+  flex-shrink: 0;
 }
 
-.df{
-  justify-content: center;
-  padding-bottom: 15px;
-}
+@media (prefers-color-scheme: dark) {
+  .download-button {
+    background: #3291ff;
+    color: #fff;
+  }
 
-.download:hover {
-  -webkit-filter: invert(100%);
-  filter: invert(100%);
+  .download-button:hover {
+    background: #0074de;
+    color: #fff;
+  }
 }

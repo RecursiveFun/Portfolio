@@ -1,14 +1,11 @@
-import React, { Component } from 'react';
+import DownloadButton from './DownloadButton'
 
-export default class Capstone extends Component {
-    render() {
-        return(
-            <a href="/images/Felix_Berinde_Capstone.pdf" download="Felix Berinde Capstone Project">
-                <div class="download android">
-                    <i class="fa fa fa-android fa-3x"></i>
-                    <span class="df">Download</span>
-                </div>   
-            </a>
-            
-        )}
+export default function Capstone() {
+  return (
+    <DownloadButton
+      href="/images/Felix_Berinde_Capstone.pdf"
+      filename="Felix Berinde Capstone Project"
+      label="Download Capstone (PDF)"
+    />
+  )
 }
