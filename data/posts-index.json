@@ -1,5 +1,13 @@
 [
   {
+    "slug": "how-i-built-esp32-garage-door",
+    "title": "How I Built an ESP32-C6 WiFi Garage Door Opener",
+    "date": "2026/06/27",
+    "description": "Building a WiFi-controlled garage door opener with an ESP32-C6 relay board, a momentary pulse relay, embedded web UI, and OTA updates.",
+    "tag": "dev, esp32, iot, platformio, home automation",
+    "author": "Felix Berinde"
+  },
+  {
     "slug": "building-yelpcamp",
     "title": "Building YelpCamp — A Full-Stack Campground App with Node and MongoDB",
     "date": "2026/06/15",
