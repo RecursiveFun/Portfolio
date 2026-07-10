@@ -1,5 +1,13 @@
 [
   {
+    "slug": "esp32-garage-door-v1-2-auth-update",
+    "title": "ESP32 Garage Door Opener v1.2 — Bearer Auth, JWT, and Remote Access",
+    "date": "2026/07/09",
+    "description": "A follow-up to my ESP32-C6 garage door opener — replacing HTTP Basic Auth with Bearer tokens and JWT, adding NTP time sync, and exposing a minimal API through a Cloudflare tunnel for an Android client.",
+    "tag": "dev, esp32, iot, security, home automation",
+    "author": "Felix Berinde"
+  },
+  {
     "slug": "how-i-built-esp32-garage-door",
     "title": "How I Built an ESP32-C6 WiFi Garage Door Opener",
     "date": "2026/06/27",
